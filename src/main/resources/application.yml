@@ -1,0 +1,13 @@
+server:
+  port: 9001
+  
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521/orclpdb
+    username: PRACTICE
+    password: PRACTICE
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    hibernate: 
+      dialect: org.hibernate.dialect.Oracle12cDialect
+    show-sql: true
